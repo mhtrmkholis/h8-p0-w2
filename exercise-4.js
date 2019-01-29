@@ -1,8 +1,8 @@
-// Masukan variabel tanggal dengan angka 1 - 31
+// Assign variabel tanggal dengan angka 1 - 31
 var tanggal = 22
-// Masukan variabel bulan dengan angka 1 - 12
+// Assign variabel bulan dengan angka 1 - 12
 var bulan = 12
-// Masukan variabel tahun dengan angka 1900 - 2200
+// Assign variabel tahun dengan angka 1900 - 2200
 var tahun = 1996
 
 switch (bulan) {
