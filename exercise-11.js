@@ -1,8 +1,9 @@
 function balikKata(kata) {
-  var split = kata.split("");
-  var reverse = split.reverse();
-  var join = reverse.join("")
-  return join
+  var tampung = ""
+  for(var i = kata.length -1; i >= 0;i--) {
+      tampung = tampung + kata[i]
+  }
+  return tampung
 }
 
 console.log (balikKata("Hello World and Coders"));
