@@ -1,0 +1,70 @@
+// No. 1
+STORE "massa" with value 600
+STORE "acceleration" with value 2
+
+CALCULATE "massa" multiply "acceleration"
+SET "force" value with calculation result
+
+DISPLAY "force"
+
+// No. 2
+// PSEUDOCODE
+STORE "year" with any value
+
+IF ("year" mod 4 equal to 0 and "year" mod 100 not equal to 0)
+    and
+    ("year" mod 4 equal to 0 and "year" mod 100 equal to 0 and "year" mod 400 equal to 0)
+    DISPLAY "kabisat"
+
+ELSE
+    DISPLAY "not kabisat"
+
+// ALGORITHM
+1. Masukan nilai ("year") dengan sebuah nilai.
+2. Tentukan kondisi untuk mengetahui nilai ("year") adalah tahun kabisat:
+    - Jika nilai ("year") habis dibagi 4 dan tidak habis dibagi 100,
+    dan
+    - Jika nilai ("year") habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400.
+3. Jika hasil dari kondisi bernilai (true), maka akan ditampilan "kabisat".
+4. Selain itu akan ditampilkan "not kabisat".
+
+// No. 3
+// PSEUDOCODE
+STORE "clothes" with value 0
+
+WHILE "clothes" < 20
+    ADD "clothes" by 1
+    DISPLAY value of "clothes"
+
+IF "clothes" == 20
+    DO turn on washing machine
+
+// ALGORITHM
+1. Tentukan nilai "clothes" dengan nilai 0, karena belum ada "clothes" yang dimasukan ke dalam mesin cuci.
+2. Buat perulangan sehingga kondisi akan terpenuhi.
+3. Ketika nilai "clothes" di dalam mesin cuci kurang dari 20, "clothes" akan ditambahkan 1 sampai kondisi terpenuhi.
+4. Tampilkan nilai dari kondisi "clothes" saat ini.
+5. Jika nilai "clothes" dalam mesin cuci sudah sama dengan 20, maka mesin cuci akan dinyalakan.
+
+// No. 4
+// PSEUDOCODE
+STORE "student" with value 0
+STORE "nails" with empty
+
+    WHILE "student" < 40
+        ADD "student" by 1
+
+        SET "nails" value by teacher
+
+        IF "nails" value is "long"
+            DISPLAY "punish student"
+        ELSE IF "nails" value is "short"
+            DISPLAY "commend student"
+
+// ALGORITHM
+1. Tentukan nilai "student" dengan nilai 0, karena belum ada murid yang diperiksa oleh guru.
+2. Guru akan memeriksa kondisi kuku murid, jadi tentukan nilai "nails" dengan tanpa nilai, yang nantinya akan ditentukan oleh guru.
+3. Untuk dapat memeriksa seluruh murid, diperlukan perulangan sampai semua murid sudah diperiksa.
+4. Ketika memeriksa murid, maka nilai "student" perlu ditambah 1 hingga kondisi terpenuhi.
+5. Jika murid memiliki kuku panjang ("nails == long"), maka murid akan dihukum ("punish student"),
+    Jika murid memiliki kuku pendek ("nails == short"), maka murid akan dipuji ("commend student").
